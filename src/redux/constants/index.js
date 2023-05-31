@@ -1,0 +1,2 @@
+export const GENERATE_RESPONSE = 'GENERATE_RESPONSE';
+export const SET_ERROR = 'SET_ERROR';
