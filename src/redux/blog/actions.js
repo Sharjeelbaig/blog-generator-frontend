@@ -8,14 +8,15 @@ export const generateResponse = (prompt) => {
       tag: prompt
     });
 
-    const config = {
-      method: "post",
+    let config = {
+      method: 'post',
       maxBodyLength: Infinity,
-      url: "https://blogify.azurewebsites.net/generate",
-      headers: {
-        "Content-Type": "application/x-www-form-urlencoded"
+      url: 'https://blogify.azurewebsites.net/generate',
+      headers: { 
+        'Content-Type': 'application/x-www-form-urlencoded', 
+        'Cookie': 'ARRAffinity=c015407f2340ab83319171108305fa1072c8452284bc5ef903dfd906b4fd7902; ARRAffinitySameSite=c015407f2340ab83319171108305fa1072c8452284bc5ef903dfd906b4fd7902'
       },
-      data: data
+      data : data
     };
 
     try {
