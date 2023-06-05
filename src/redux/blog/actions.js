@@ -11,7 +11,7 @@ export const generateResponse = (prompt) => {
     const config = {
       method: "post",
       maxBodyLength: Infinity,
-      url: "https://blog-generator-backend.vercel.app/generate",
+      url: "https://blogify.azurewebsites.net/generate",
       headers: {
         "Content-Type": "application/x-www-form-urlencoded"
       },
