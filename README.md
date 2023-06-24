@@ -1,3 +1,5 @@
+![image](https://github.com/Sharjeelbaig/blog-generator-frontend/assets/29815204/2898870d-f820-4ddd-9058-f5c9dcc4500e)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
